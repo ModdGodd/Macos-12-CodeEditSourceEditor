@@ -15,11 +15,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/krzyzanowskim/STTextView.git",
-            from: "0.4.1"
+            exact: "1.0.0"
         ),
         .package(
             url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
-            exact: "0.1.13"
+            exact: "0.1.15"
         ),
         .package(
             url: "https://github.com/lukepistrol/SwiftLintPlugin",
@@ -27,7 +27,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/ChimeHQ/TextFormation",
-            from: "0.6.7"
+            exact: "0.8.0"
         )
     ],
     targets: [
