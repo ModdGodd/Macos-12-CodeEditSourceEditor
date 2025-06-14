@@ -14,12 +14,11 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/krzyzanowskim/STTextView.git",
-            exact: "1.0.0"
+            path: "/Users/tisu/Dev/SPM-Overrides/STTextView"
         ),
         .package(
             url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
-            exact: "0.1.13"
+            exact: "0.1.15"
         ),
         .package(
             url: "https://github.com/lukepistrol/SwiftLintPlugin",
