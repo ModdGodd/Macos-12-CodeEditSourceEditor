@@ -27,7 +27,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/ModdGodd/OldTextFormation",
-            exact: "0.6.7"
+            exact: "0.6.8"
         )
     ],
     targets: [
