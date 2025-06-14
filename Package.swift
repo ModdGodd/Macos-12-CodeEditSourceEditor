@@ -26,7 +26,7 @@ let package = Package(
             exact: "0.2.2"
         ),
         .package(
-            url: "https://github.com/ChimeHQ/TextFormation",
+            url: "https://github.com/ModdGodd/OldTextFormation",
             exact: "0.6.7"
         )
     ],
