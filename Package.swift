@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/krzyzanowskim/STTextView.git",
-            exact: "0.4.1"
+            from: "0.4.1"
         ),
         .package(
             url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
@@ -23,11 +23,11 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/lukepistrol/SwiftLintPlugin",
-            exact: "0.2.2"
+            from: "0.2.2"
         ),
         .package(
-            url: "https://github.com/ModdGodd/OldTextFormation",
-            exact: "0.6.8"
+            url: "https://github.com/ChimeHQ/TextFormation",
+            from: "0.6.7"
         )
     ],
     targets: [
@@ -36,7 +36,7 @@ let package = Package(
             dependencies: [
                 "STTextView",
                 "CodeEditLanguages",
-                "OldTextFormation"
+                "TextFormation"
             ],
             plugins: [
                 .plugin(name: "SwiftLint", package: "SwiftLintPlugin")
