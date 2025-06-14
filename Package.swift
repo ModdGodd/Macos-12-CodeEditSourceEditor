@@ -14,9 +14,6 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            path: "/Users/tisu/Dev/SPM-Overrides/STTextView"
-        ),
-        .package(
             url: "https://github.com/CodeEditApp/CodeEditLanguages.git",
             exact: "0.1.15"
         ),
