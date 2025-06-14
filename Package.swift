@@ -36,7 +36,7 @@ let package = Package(
             dependencies: [
                 "STTextView",
                 "CodeEditLanguages",
-                "TextFormation"
+                "OldTextFormation"
             ],
             plugins: [
                 .plugin(name: "SwiftLint", package: "SwiftLintPlugin")
