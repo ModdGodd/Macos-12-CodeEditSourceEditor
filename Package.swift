@@ -30,7 +30,6 @@ let package = Package(
         .target(
             name: "CodeEditTextView",
             dependencies: [
-                "STTextView",
                 "CodeEditLanguages",
                 "TextFormation"
             ],
